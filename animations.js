@@ -9,7 +9,7 @@
   var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   var css = getComputedStyle(root);
   var PRIMARY = (css.getPropertyValue("--primary") || "").trim() || "#0f2a4a";
-  var ACCENT = (css.getPropertyValue("--accent") || "").trim() || "#f26b1d";
+  var ACCENT = (css.getPropertyValue("--accent") || "").trim() || "#ec3535";
   function rgba(hex, a) {
     var h = hex.replace("#", "");
     if (h.length === 3) h = h.split("").map(function (c) { return c + c; }).join("");
