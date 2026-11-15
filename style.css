@@ -1,4 +1,4 @@
-:root { --primary:#0f2a4a; --accent:#f26b1d; --bg:#f5f7fa; --text:#1b2430; --muted:#5d6b7a; --r:14px; }
+:root { --primary:#0f2a4a; --accent:#ec3535; --bg:#f5f7fa; --text:#1b2430; --muted:#5d6b7a; --r:14px; }
 * { box-sizing:border-box; margin:0; padding:0; }
 html { scroll-behavior:smooth; scroll-padding-top:80px; }
 body { font-family:"IBM Plex Sans Arabic", system-ui, sans-serif; color:var(--text); line-height:1.8; background:#fff; }
@@ -109,7 +109,7 @@ footer { background:#0a1d33; color:#c9d3df; padding:40px 0 100px; }
 .scribble { position:relative; display:inline-block; white-space:nowrap; }
 .scribble::after {
   content:""; position:absolute; left:-2%; right:-2%; bottom:-.1em; height:.3em; pointer-events:none;
-  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 20' preserveAspectRatio='none'%3E%3Cpath d='M3 13 C 45 5, 95 6, 140 10 S 185 12, 197 7' fill='none' stroke='%23f26b1d' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat center / 100% 100%;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 20' preserveAspectRatio='none'%3E%3Cpath d='M3 13 C 45 5, 95 6, 140 10 S 185 12, 197 7' fill='none' stroke='%23ec3535' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat center / 100% 100%;
 }
 
 @media (max-width:860px) {
