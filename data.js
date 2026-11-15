@@ -5,7 +5,7 @@
 // ================================================
 const SITE = {
 
-  theme: { primary: `#0f2a4a`, accent: `#f26b1d`, bg: `#f5f7fa` },
+  theme: { primary: `#0f2a4a`, accent: `#ec3535`, bg: `#f5f7fa` },
 
   meta: { title: `دورة Fusion 360 بالعربية` },
 
