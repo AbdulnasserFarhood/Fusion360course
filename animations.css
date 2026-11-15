@@ -128,7 +128,7 @@ html { scroll-padding-top:96px; }
 .curr-fill { position:absolute; inset-block:0; inset-inline-start:7px; width:2px; background:var(--accent);
   transform-origin:top; transform:scaleY(var(--cp,0)); }
 .curr details { position:relative; overflow:visible; }
-.curr details::before { content:""; position:absolute; inset-inline-start:-36px; top:28px; width:16px; height:16px;
+.curr details::before { content:""; position:absolute; inset-inline-start:-37px; top:28px; width:16px; height:16px; box-sizing:border-box;
   border-radius:50%; background:#fff; border:2px solid var(--line); transition:background .3s, border-color .3s, box-shadow .3s; }
 .curr details.on::before,
 .curr details.lit::before { background:var(--accent); border-color:var(--accent);
